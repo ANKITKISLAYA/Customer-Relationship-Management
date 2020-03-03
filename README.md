@@ -13,6 +13,7 @@ Target and TargetValue :- In these two modules the objective is to set target fo
 example let's say a customer purchased worth  ₹10,000 in last month from the company , then target by value ₹100 will be ₹10,000 + ₹100 = 10,100 and target by percentage will be 10,000 + 10% which is 10,000 + 1,000 = 11,000 . By applying filters such as level, Upper limit(on volume) , Lower limit(on volume) we apply specific target for that specific filtered out data .
 
 API:- http://127.0.0.1:5000/target/percent?percentage=10&levels=1&ulimit=137166.35&llimit=47293.56
+
 API:- http://127.0.0.1:5000/target/value?value=10&levels=1&ulimit=137166.35&llimit=47293.56
 
 
